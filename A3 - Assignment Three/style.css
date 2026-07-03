@@ -1,0 +1,88 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #FAF5EC;
+}
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    justify-content: space-between;
+   padding-inline: 60px;
+   padding-block: 30px;
+}
+.left-logo h1{
+    font-family:"Tangerine", cursive;
+    font-weight:900;
+    font-size: 3.5rem;
+}
+.left-logo i{
+    font-size: 2rem;
+    background: linear-gradient(90deg, yellow,#ff0000, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu{
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: flex;
+    gap: 30px;
+    
+}
+.menu a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.menu a:hover{
+    text-decoration: underline;
+    color: #48A111;
+}
+.search-wt-icon{
+position: relative;
+}
+
+.search-wt-icon i{
+    font-size: 2rem;
+}
+.search-icon{
+    height: 60px;
+    width: 400px;
+    border-radius: 30px;
+    padding-left: 55px;
+}
+.ri-search-line{
+    position: absolute;
+   top: 14px;
+   left: 15px;
+   color: #E7B562;
+}
+.ri-shopping-bag-fill{
+    position: absolute;
+    top: 14px;
+   right: 30px;
+}
+.search-wt-icon p{
+    position: absolute;
+    top: 15px;
+   right: 70px;
+   font-size: 2rem;
+}
+.red-noti{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 375px;
+    bottom: 35px;
+    border-radius: 10px;
+}
